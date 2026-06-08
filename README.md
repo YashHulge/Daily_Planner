@@ -79,11 +79,4 @@ npm run dev
 ---
 
 *If you found this project helpful, please consider giving it a ⭐!*
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-f.write(content)
-
-print("File generated successfully.")
-
 ```
