@@ -1,16 +1,89 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern, and interactive daily task management frontend built with React and Tailwind CSS. PlanEase helps users track their daily tasks with a clean, responsive interface.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Task Management**: Easily add new tasks (with validation to prevent empty submissions).
+* **Status Tracking**: Toggle tasks between "Pending" and "Completed" states. Completed tasks feature subtle line-through styling for immediate visual feedback.
+* **Instant Deletion**: Remove tasks from the list instantly.
+* **Dynamic UI**: 
+    * Real-time task counter.
+    * Clean empty-state handling ("No tasks available. Add one!").
+* **Modern Design**: Styled entirely with Tailwind CSS v4 for a polished, responsive, and accessible user experience.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Library**: React.js (Bootstrapped with Vite)
+* **Styling**: Tailwind CSS v4
+* **Language**: JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## 📂 Component Architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application follows a clean, modular React component structure:
+* `App.jsx`: The central state manager and main layout container.
+* `TaskForm.jsx`: Handles user input and form submission.
+* `TaskList.jsx`: Manages the display logic, empty states, and list rendering.
+* `TaskItem.jsx`: Renders individual tasks, checkboxes, and delete actions.
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+* Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+```
+
+```text
+File generated successfully.
+
+```bash
+   git clone [https://github.com/YashHulge/planease-planner.git](https://github.com/YashHulge/planease-planner.git)
+
+```
+
+2. Navigate to the project directory:
+```bash
+cd planease-planner
+
+```
+
+
+3. Install NPM packages:
+```bash
+npm install
+
+```
+
+
+4. Start the Vite development server:
+```bash
+npm run dev
+
+```
+
+
+
+## 👨‍💻 Author
+
+**Yash Hulge**
+
+* Technical Architect | Full-Stack Developer
+* GitHub: [@YashHulge](https://www.google.com/search?q=https://github.com/YashHulge)
+* Email: hulgeyash12@gmail.com
+
+---
+
+*If you found this project helpful, please consider giving it a ⭐!*
+"""
+
+with open("README.md", "w", encoding="utf-8") as f:
+f.write(content)
+
+print("File generated successfully.")
+
+```
